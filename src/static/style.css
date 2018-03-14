@@ -1,0 +1,18 @@
+p {
+  color: red;
+}
+.show {
+  display: block;
+  /* animation: fade-in-keyframes 1s; */
+}
+@keyframes fade-in-keyframes {
+  from {
+    height: 0;
+  }
+  to {
+    height: 500px;
+  }
+}
+.hide {
+  display: none;
+}
